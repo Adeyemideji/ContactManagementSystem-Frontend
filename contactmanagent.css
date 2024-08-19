@@ -1,0 +1,72 @@
+body{
+    background-color: gray;
+}
+
+
+
+.nav{
+    display: flex;
+
+}
+
+.nav-bar{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    margin-left : 53rem
+}
+
+.nav-button{
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius:7px;
+    border: none;
+    margin-top: 1rem;
+    background-color: white;
+    color:rgb(3,54,61);
+}
+.nav-button:hover{
+    transform: scale(1.2);
+    background-color:white;
+}
+
+.ContactManagement{
+    font-size: 72px;
+    font-weight: 700;
+    color:rgb(3,54,61);
+    margin-bottom: 0;
+    font-family: "Sharp Sans",Arial,sans-serif;
+    line-height: 80px;
+}
+
+.container{
+    display: flex;
+    gap: 90px;
+}
+.contain{
+    margin-top: 50px;
+    margin-left: 3rem;
+}
+
+.image{
+    height: 6rem;
+    width: 8rem;
+}
+
+.first-pics{
+    height:25rem;
+    width: 35rem;
+    border-radius: 7px;
+}
+.sub-header{
+    align-items: end;
+    font-family: "Sharp Sans", Arial, sans-serif;
+    color: rgb(3, 54, 61);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

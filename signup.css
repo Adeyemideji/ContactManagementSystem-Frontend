@@ -1,0 +1,82 @@
+body{
+    background-color: grey;
+}
+
+.welcome-user{
+    margin-top: 16rem;
+    color:rgb(3,54,61);
+    font-family: Inter, sans-serif;
+    font-weight:400;
+    font-size: 4rem;
+    line-height: 16px;
+    margin-left: 3rem;
+}
+
+.sign-up{
+    margin-top: 5rem;
+    align-items: center;
+    border-radius: 10px;
+/border-color: white;/
+border: solid;
+    padding: 10px 20px;
+    height: 450px;
+    width: 240px;
+    background-color: white;
+    margin-left: 500px;
+}
+
+input{
+    border-radius: 10px;
+    border: black;
+    box-shadow: none;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.all{
+    display: flex;
+    gap: 17rem;
+    /*margin-left: 40rem;*/
+}
+
+.sign-up-message{
+    font-family: Inter, sans-serif;
+}
+.some-details{
+    font-family: Inter, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sign-up-button{
+    width: 15rem;
+    height: 2rem;
+    background-color: white;
+;
+    color: black;
+    border-radius: 10px;
+    border: solid  grey;
+    cursor: pointer;
+}
+
+.sign-up-button:hover{
+    background-color: grey;
+    color: white;
+    transform: scale(1.1);
+}
+.another-login{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contain{
+    display: flex;
+}
+
+.imm{
+    height: 30rem;
+    width: 30rem;
+}
